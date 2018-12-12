@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:valueFrom="0"
+    android:valueTo="180"
+    android:duration="1000"
+    android:valueType="floatType"
+    android:repeatMode="reverse"
+    android:repeatCount="1" >
+
+
+</animator>

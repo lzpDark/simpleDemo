@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdp.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".companent_anim.MainCompanentActivity" />
+        <activity android:name=".transition_anim.MainTransitionActivity" />
+        <activity android:name=".companent_anim.tween.MainTweenActivity" />
+        <activity android:name=".companent_anim.property.MainPropertyActivity" />
+        <activity android:name=".companent_anim.property.value.MainValueActivity" />
+        <activity android:name=".companent_anim.property.object.MainObjectActivity" />
+        <activity android:name=".companent_anim.property.viewPropertyAnimator.MainViewPropertyAnimatorActivity" />
+        <activity android:name=".transition_anim.NextOldActivity" />
+        <activity android:name=".transition_anim.transition_new.NextNewExplodeActivity" />
+        <activity android:name=".transition_anim.transition_new.NextNewSlideActivity" />
+        <activity android:name=".transition_anim.transition_new.NextNewFadeActivity" />
+        <activity android:name=".transition_anim.transition_new.NextNewShareActivity"></activity>
+    </application>
+
+</manifest>
